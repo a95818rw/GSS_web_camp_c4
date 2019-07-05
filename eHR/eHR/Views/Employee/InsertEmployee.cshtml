@@ -1,10 +1,10 @@
-﻿@model eHR.Models.Employees
+﻿@model eHR.Models.Books
 
 @{
-    ViewBag.Title = "InsertEmployee";
+    ViewBag.Title = "InsertBook";
 }
 
-<h2>InsertEmployee</h2>
+<h2>InsertBook</h2>
 
 
 @using (Html.BeginForm()) 
@@ -12,7 +12,7 @@
     @Html.AntiForgeryToken()
     
     <div class="form-horizontal">
-        <h4>Employees</h4>
+        <h4>Books</h4>
         <hr />
         @Html.ValidationSummary(true, "", new { @class = "text-danger" })
 

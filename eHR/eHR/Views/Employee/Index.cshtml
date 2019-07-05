@@ -1,4 +1,4 @@
-﻿@model eHR.Models.EmployeeSearchArg
+﻿@model eHR.Models.BookSearchArg
 
 @{
     ViewBag.Title = "Index";
@@ -11,26 +11,26 @@
     <div class="form-horizontal">
 
         <div class="form-group">
-            @Html.LabelFor(model => model.EmployeeId, htmlAttributes: new { @class = "control-label col-md-2" })
+            @Html.LabelFor(model => model.BookId, htmlAttributes: new { @class = "control-label col-md-2" })
             <div class="col-md-10">
-                @Html.TextBoxFor(model => model.EmployeeId, new { @class = "form-control" })
+                @Html.TextBoxFor(model => model.BookId, new { @class = "form-control" })
             </div>
         </div>
 
         <div class="form-group">
-            @Html.LabelFor(model => model.EmployeeName, htmlAttributes: new { @class = "control-label col-md-2" })
+            @Html.LabelFor(model => model.BookName, htmlAttributes: new { @class = "control-label col-md-2" })
             <div class="col-md-10">
-                @Html.TextBoxFor(model => model.EmployeeName, new { @class = "form-control" })
+                @Html.TextBoxFor(model => model.BookName, new { @class = "form-control" })
             </div>
         </div>
 
 
 
         <div class="form-group">
-            <label class="control-label col-md-2">任職日期</label>
+            <label class="control-label col-md-2">購書日期</label>
             <div class="col-md-10">
-                @Html.TextBoxFor(model => model.HireDateStart, new { @type = "Date", @style = "text-align:left" }) ~
-                @Html.TextBoxFor(model => model.HireDateEnd, new { @type = "Date", @style = "text-align:left" })
+                @Html.TextBoxFor(model => model.BoughtDateStart, new { @type = "Date", @style = "text-align:left" }) ~
+                @Html.TextBoxFor(model => model.BoughtDateEnd, new { @type = "Date", @style = "text-align:left" })
             </div>
         </div>
 
@@ -50,32 +50,32 @@
             <table class="table table-bordered table-striped">
                 <thead>
                     <tr id>
-                        <th>編號</th>
-                        <th>員工名稱</th>
-                        <th>職稱</th>
-                        <th>任職日期</th>
-                        <th>性別</th>
-                        <th>年齡</th>
+                        <th>書本ID</th>
+                        <th>書名</th>
+                        <th>圖書類別</th>
+                        <th>購書日期</th>
+                        <th>作者</th>
+                        <th>出版商</th>
                         <td></td>
                         <td></td>
                     </tr>
                 </thead>
                 <tbody>
-                    @foreach (var item in (List<eHR.Models.Employees>)ViewBag.SearchResult)
+                    @foreach (var item in (List<eHR.Models.Books>)ViewBag.SearchResult)
                     {
-                        <tr id='@item.EmployeeId'>
-                            <td>@item.EmployeeId</td>
-                            <td>@item.EmployeeFirstName  @item.EmployeeLastName</td>
-                            <td>@item.JobTitleId - @item.JobTitle</td>
-                            <td>@item.HireDate.Replace('-', '/')</td>
-                            <td>@item.Gender</td>
-                            <td>@item.Age</td>
-                            <td>@Html.ActionLink("修改", "UpdateEmployee", new { id = item.EmployeeId , @value = @item.EmployeeId })</td>
-                            <td>
-                                <a class="btnDelete" href="#" onclick="test(this,'@item.EmployeeId');">刪除</a>
-                                <input class="hidEmployeeId" type="hidden" value='@item.EmployeeId' />
-                            </td>
-                        </tr>
+                    <tr id='@item.BookID'>
+                        <td>@item.BookID</td>
+                        <td>@item.BookName</td>
+                        <td>@item.BookClassID</td>
+                        <td>@item.BookBoughtDate.Replace('-', '/')</td>
+                        <td>@item.Author</td>
+                        <td>@item.Publisher</td>
+                        <td>@Html.ActionLink("修改", "UpdateBook", new { id = item.BookID, @value = @item.BookID })</td>
+                        <td>
+                            <a class="btnDelete" href="#" onclick="test(this,'@item.BookID');">刪除</a>
+                            <input class="hidEmployeeId" type="hidden" value='@item.BookID' />
+                        </td>
+                    </tr>
                     }
                 </tbody>
             </table>
@@ -90,8 +90,8 @@
             var tr = $(this).closest('tr')
             $.ajax({
                 type: "POST",
-                url: "/Employee/DeleteEmployee",
-                data: "employeeId=" + $(this).next().val(),
+                url: "/Book/DeleteBook",
+                data: "BookID=" + $(this).next().val(),
                 dataType: "json",
                 success: function (response) {
                     $(tr).remove();

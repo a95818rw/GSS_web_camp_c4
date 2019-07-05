@@ -11,7 +11,7 @@ namespace eHR.Controllers
 
         Models.CodeService codeService = new Models.CodeService();
         /// <summary>
-        /// 員工資料查詢
+        /// 書籍資料查詢
         /// </summary>
         /// <returns></returns>
         public ActionResult Index()
@@ -21,73 +21,69 @@ namespace eHR.Controllers
         }
 
         /// <summary>
-        /// 員工資料查詢(查詢)
+        /// 書籍資料查詢(查詢)
         /// </summary>
         /// <returns></returns>
         [HttpPost()]
-        public ActionResult Index(Models.EmployeeSearchArg arg)
+        public ActionResult Index(Models.BookSearchArg arg)
         {
-            Models.EmployeeService employeeService = new Models.EmployeeService();
-            if (arg.HireDateEnd == null)
-                arg.HireDateEnd = DateTime.Now.ToShortDateString();
-            ViewBag.SearchResult = employeeService.GetEmployeeByCondtioin(arg);
+            Models.BookService bookService = new Models.BookService();
+            if (arg.BoughtDateEnd == null)
+                arg.BoughtDateEnd = DateTime.Now.ToShortDateString();
+            ViewBag.SearchResult = bookService.GetBookByCondition(arg);
             ViewBag.JobTitleCodeData = this.codeService.GetCodeTable("TITLE");
             return View("Index");
         }
 
         /// <summary>
-        /// 新增員工畫面
+        /// 新增書籍畫面
         /// </summary>
         /// <returns></returns>
         [HttpGet()]
-        public ActionResult InsertEmployee()
+        public ActionResult InsertBook()
         {
             ViewBag.JobTitleCodeData = this.codeService.GetCodeTable("TITLE");
             ViewBag.CountryCodeData = this.codeService.GetCodeTable("COUNTRY");
             ViewBag.CityCodeData = this.codeService.GetCodeTable("CITY");
             ViewBag.GenderCodeData = this.codeService.GetCodeTable("GENDER");
-            ViewBag.EmpCodeData = this.codeService.GetEmployee("0");
-            return View(new Models.Employees());
+            ViewBag.EmpCodeData = this.codeService.GetBook("0");
+            return View(new Models.Books());
         }
 
         /// <summary>
-        /// 新增員工
+        /// 新增書籍??????????
         /// </summary>
-        /// <param name="employee"></param>
+        /// <param name="book"></param>
         /// <returns></returns>
         [HttpPost()]
-        public ActionResult InsertEmployee(Models.Employees employee)
+        public ActionResult InsertEmployee(Models.Books book)
         {
             ViewBag.JobTitleCodeData = this.codeService.GetCodeTable("TITLE");
             ViewBag.CountryCodeData = this.codeService.GetCodeTable("COUNTRY");
             ViewBag.CityCodeData = this.codeService.GetCodeTable("CITY");
             ViewBag.GenderCodeData = this.codeService.GetCodeTable("GENDER");
-            ViewBag.EmpCodeData = this.codeService.GetEmployee("0");
+            ViewBag.EmpCodeData = this.codeService.GetBook("0");
             if (ModelState.IsValid)
             {
-                Models.EmployeeService employeeService = new Models.EmployeeService();
-                if (employee.MonthlyPayment != null)
-                    employee.MonthlyPayment = employee.MonthlyPayment.Replace(",", "");
-                if (employee.YearlyPayment != null)
-                    employee.YearlyPayment = employee.YearlyPayment.Replace(",", "");
-                employeeService.InsertEmployee(employee);
+                Models.BookService bookService = new Models.BookService();
+                bookService.InsertBook(book);
                 TempData["message"] = "存檔成功";
             }
-            return View(employee);
+            return View(book);
         }
 
         /// <summary>
         /// 刪除員工
         /// </summary>
-        /// <param name="employeeId"></param>
+        /// <param name="bookId"></param>
         /// <returns></returns>
         [HttpPost()]
-        public JsonResult DeleteEmployee(string employeeId)
+        public JsonResult DeleteBook(string bookId)
         {
             try
             {
-                Models.EmployeeService EmployeeService = new Models.EmployeeService();
-                EmployeeService.DeleteEmployeeById(employeeId);
+                Models.BookService BookService = new Models.BookService();
+                BookService.DeleteBookById(bookId);
                 return this.Json(true);
             }
 
@@ -100,11 +96,11 @@ namespace eHR.Controllers
         /// <summary>
         /// 修改員工畫面
         /// </summary>
-        /// <param name="employeeId"></param>
+        /// <param name="bookId"></param>
         /// <returns></returns>
-        public ActionResult UpdateEmployee(string employeeId)
+        public ActionResult UpdateBook(string bookId)
         {
-            ViewBag.aaa = employeeId;
+            ViewBag.aaa = bookId;
             return View();
         }
 

@@ -24,17 +24,17 @@ namespace eHR.Models
         /// 取得客戶資料
         /// </summary>
         /// <returns></returns>
-        public List<SelectListItem> GetEmployee(string employeeId)
+        public List<SelectListItem> GetBook(string bookId)
         {
             DataTable dt = new DataTable();
-            string sql = @"Select EmployeeID As CodeId, (FirstName + ' ' + LastName) As CodeName 
-                           FROM HR.Employees
-                           WHERE EmployeeID != @EmployeeId";
+            string sql = @"Select BOOK_ID As CodeId, BOOK_NAME As CodeName 
+                           FROM dbo.BOOK_DATA
+                           WHERE BOOK_ID != @BookID";
             using (SqlConnection conn = new SqlConnection(this.GetDBConnectionString()))
             {
                 conn.Open();
                 SqlCommand cmd = new SqlCommand(sql, conn);
-                cmd.Parameters.Add(new SqlParameter("@EmployeeId", employeeId));
+                cmd.Parameters.Add(new SqlParameter("@bookId", bookId));
                 SqlDataAdapter sqlAdapter = new SqlDataAdapter(cmd);
 
                 sqlAdapter.Fill(dt);
@@ -50,14 +50,14 @@ namespace eHR.Models
         public List<SelectListItem> GetCodeTable(string type)
         {
             DataTable dt = new DataTable();
-            string sql = @"Select Distinct CodeVal As CodeName, CodeId As CodeID 
-                           From dbo.CodeTable 
-                           Where CodeType = @Type";
+            string sql = @"Select BOOK_CLASS_NAME As CodeName, BOOK_CLASS_ID As CodeID 
+                           From dbo.BOOK_CLASS ";
+            //Where BOOK_CLASS_ID = @Type
             using (SqlConnection conn = new SqlConnection(this.GetDBConnectionString()))
             {
                 conn.Open();
                 SqlCommand cmd = new SqlCommand(sql, conn);
-                cmd.Parameters.Add(new SqlParameter("@Type", type));
+                //cmd.Parameters.Add(new SqlParameter("@Type", type));
                 SqlDataAdapter sqlAdapter = new SqlDataAdapter(cmd);
                 sqlAdapter.Fill(dt);
                 conn.Close();
