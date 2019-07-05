@@ -1,0 +1,266 @@
+c:\users\kenny\documents\visual studio 2015\Projects\eHR\eHR\obj\Debug\eHR.csprojResolveAssemblyReference.cache
+c:\users\kenny\documents\visual studio 2015\Projects\eHR\eHR\bin\ApplicationInsights.config
+c:\users\kenny\documents\visual studio 2015\Projects\eHR\eHR\bin\roslyn\csc.exe
+c:\users\kenny\documents\visual studio 2015\Projects\eHR\eHR\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\kenny\documents\visual studio 2015\Projects\eHR\eHR\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\kenny\documents\visual studio 2015\Projects\eHR\eHR\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\kenny\documents\visual studio 2015\Projects\eHR\eHR\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\kenny\documents\visual studio 2015\Projects\eHR\eHR\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\kenny\documents\visual studio 2015\Projects\eHR\eHR\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\kenny\documents\visual studio 2015\Projects\eHR\eHR\bin\roslyn\System.Collections.Immutable.dll
+c:\users\kenny\documents\visual studio 2015\Projects\eHR\eHR\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\kenny\documents\visual studio 2015\Projects\eHR\eHR\bin\roslyn\vbc.exe
+c:\users\kenny\documents\visual studio 2015\Projects\eHR\eHR\bin\roslyn\VBCSCompiler.exe
+c:\users\kenny\documents\visual studio 2015\Projects\eHR\eHR\bin\roslyn\VBCSCompiler.exe.config
+c:\users\kenny\documents\visual studio 2015\Projects\eHR\eHR\bin\eHR.dll.config
+c:\users\kenny\documents\visual studio 2015\Projects\eHR\eHR\bin\eHR.dll
+c:\users\kenny\documents\visual studio 2015\Projects\eHR\eHR\bin\eHR.pdb
+c:\users\kenny\documents\visual studio 2015\Projects\eHR\eHR\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\kenny\documents\visual studio 2015\Projects\eHR\eHR\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\kenny\documents\visual studio 2015\Projects\eHR\eHR\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\kenny\documents\visual studio 2015\Projects\eHR\eHR\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\kenny\documents\visual studio 2015\Projects\eHR\eHR\bin\Microsoft.AI.Web.dll
+c:\users\kenny\documents\visual studio 2015\Projects\eHR\eHR\bin\Microsoft.AI.WindowsServer.dll
+c:\users\kenny\documents\visual studio 2015\Projects\eHR\eHR\bin\Microsoft.ApplicationInsights.dll
+c:\users\kenny\documents\visual studio 2015\Projects\eHR\eHR\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\kenny\documents\visual studio 2015\Projects\eHR\eHR\bin\Microsoft.Web.Infrastructure.dll
+c:\users\kenny\documents\visual studio 2015\Projects\eHR\eHR\bin\System.Web.Helpers.dll
+c:\users\kenny\documents\visual studio 2015\Projects\eHR\eHR\bin\System.Web.Mvc.dll
+c:\users\kenny\documents\visual studio 2015\Projects\eHR\eHR\bin\System.Web.Razor.dll
+c:\users\kenny\documents\visual studio 2015\Projects\eHR\eHR\bin\System.Web.Webpages.Deployment.dll
+c:\users\kenny\documents\visual studio 2015\Projects\eHR\eHR\bin\System.Web.Webpages.dll
+c:\users\kenny\documents\visual studio 2015\Projects\eHR\eHR\bin\System.Web.Webpages.Razor.dll
+c:\users\kenny\documents\visual studio 2015\Projects\eHR\eHR\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\kenny\documents\visual studio 2015\Projects\eHR\eHR\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\users\kenny\documents\visual studio 2015\Projects\eHR\eHR\bin\Microsoft.AI.Web.xml
+c:\users\kenny\documents\visual studio 2015\Projects\eHR\eHR\bin\Microsoft.AI.WindowsServer.xml
+c:\users\kenny\documents\visual studio 2015\Projects\eHR\eHR\bin\Microsoft.ApplicationInsights.xml
+c:\users\kenny\documents\visual studio 2015\Projects\eHR\eHR\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\kenny\documents\visual studio 2015\Projects\eHR\eHR\bin\System.Web.Razor.xml
+c:\users\kenny\documents\visual studio 2015\Projects\eHR\eHR\bin\System.Web.Webpages.xml
+c:\users\kenny\documents\visual studio 2015\Projects\eHR\eHR\bin\System.Web.Webpages.Deployment.xml
+c:\users\kenny\documents\visual studio 2015\Projects\eHR\eHR\bin\System.Web.Webpages.Razor.xml
+c:\users\kenny\documents\visual studio 2015\Projects\eHR\eHR\bin\System.Web.Helpers.xml
+c:\users\kenny\documents\visual studio 2015\Projects\eHR\eHR\bin\System.Web.Mvc.xml
+c:\users\kenny\documents\visual studio 2015\Projects\eHR\eHR\bin\zh-Hant\System.Web.Razor.resources.dll
+c:\users\kenny\documents\visual studio 2015\Projects\eHR\eHR\bin\zh-Hant\System.Web.Webpages.resources.dll
+c:\users\kenny\documents\visual studio 2015\Projects\eHR\eHR\bin\zh-Hant\System.Web.Webpages.Deployment.resources.dll
+c:\users\kenny\documents\visual studio 2015\Projects\eHR\eHR\bin\zh-Hant\System.Web.Webpages.Razor.resources.dll
+c:\users\kenny\documents\visual studio 2015\Projects\eHR\eHR\bin\zh-Hant\System.Web.Helpers.resources.dll
+c:\users\kenny\documents\visual studio 2015\Projects\eHR\eHR\bin\zh-Hant\System.Web.Mvc.resources.dll
+c:\users\kenny\documents\visual studio 2015\Projects\eHR\eHR\obj\Debug\eHR.dll
+c:\users\kenny\documents\visual studio 2015\Projects\eHR\eHR\obj\Debug\eHR.pdb
+D:\叡揚實習\Course4-1_NET_MVC\範例程式\eHR\eHR\bin\ApplicationInsights.config
+D:\叡揚實習\Course4-1_NET_MVC\範例程式\eHR\eHR\bin\roslyn\csc.exe
+D:\叡揚實習\Course4-1_NET_MVC\範例程式\eHR\eHR\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\叡揚實習\Course4-1_NET_MVC\範例程式\eHR\eHR\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\叡揚實習\Course4-1_NET_MVC\範例程式\eHR\eHR\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\叡揚實習\Course4-1_NET_MVC\範例程式\eHR\eHR\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\叡揚實習\Course4-1_NET_MVC\範例程式\eHR\eHR\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\叡揚實習\Course4-1_NET_MVC\範例程式\eHR\eHR\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\叡揚實習\Course4-1_NET_MVC\範例程式\eHR\eHR\bin\roslyn\System.Collections.Immutable.dll
+D:\叡揚實習\Course4-1_NET_MVC\範例程式\eHR\eHR\bin\roslyn\System.Reflection.Metadata.dll
+D:\叡揚實習\Course4-1_NET_MVC\範例程式\eHR\eHR\bin\roslyn\vbc.exe
+D:\叡揚實習\Course4-1_NET_MVC\範例程式\eHR\eHR\bin\roslyn\VBCSCompiler.exe
+D:\叡揚實習\Course4-1_NET_MVC\範例程式\eHR\eHR\bin\roslyn\VBCSCompiler.exe.config
+D:\叡揚實習\Course4-1_NET_MVC\範例程式\eHR\eHR\bin\eHR.dll.config
+D:\叡揚實習\Course4-1_NET_MVC\範例程式\eHR\eHR\bin\eHR.dll
+D:\叡揚實習\Course4-1_NET_MVC\範例程式\eHR\eHR\bin\eHR.pdb
+D:\叡揚實習\Course4-1_NET_MVC\範例程式\eHR\eHR\bin\Microsoft.AI.Agent.Intercept.dll
+D:\叡揚實習\Course4-1_NET_MVC\範例程式\eHR\eHR\bin\Microsoft.AI.DependencyCollector.dll
+D:\叡揚實習\Course4-1_NET_MVC\範例程式\eHR\eHR\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\叡揚實習\Course4-1_NET_MVC\範例程式\eHR\eHR\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\叡揚實習\Course4-1_NET_MVC\範例程式\eHR\eHR\bin\Microsoft.AI.Web.dll
+D:\叡揚實習\Course4-1_NET_MVC\範例程式\eHR\eHR\bin\Microsoft.AI.WindowsServer.dll
+D:\叡揚實習\Course4-1_NET_MVC\範例程式\eHR\eHR\bin\Microsoft.ApplicationInsights.dll
+D:\叡揚實習\Course4-1_NET_MVC\範例程式\eHR\eHR\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\叡揚實習\Course4-1_NET_MVC\範例程式\eHR\eHR\bin\Microsoft.Web.Infrastructure.dll
+D:\叡揚實習\Course4-1_NET_MVC\範例程式\eHR\eHR\bin\System.Web.Helpers.dll
+D:\叡揚實習\Course4-1_NET_MVC\範例程式\eHR\eHR\bin\System.Web.Mvc.dll
+D:\叡揚實習\Course4-1_NET_MVC\範例程式\eHR\eHR\bin\System.Web.Razor.dll
+D:\叡揚實習\Course4-1_NET_MVC\範例程式\eHR\eHR\bin\System.Web.Webpages.Deployment.dll
+D:\叡揚實習\Course4-1_NET_MVC\範例程式\eHR\eHR\bin\System.Web.Webpages.dll
+D:\叡揚實習\Course4-1_NET_MVC\範例程式\eHR\eHR\bin\System.Web.Webpages.Razor.dll
+D:\叡揚實習\Course4-1_NET_MVC\範例程式\eHR\eHR\bin\Microsoft.AI.DependencyCollector.xml
+D:\叡揚實習\Course4-1_NET_MVC\範例程式\eHR\eHR\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\叡揚實習\Course4-1_NET_MVC\範例程式\eHR\eHR\bin\Microsoft.AI.Web.xml
+D:\叡揚實習\Course4-1_NET_MVC\範例程式\eHR\eHR\bin\Microsoft.AI.WindowsServer.xml
+D:\叡揚實習\Course4-1_NET_MVC\範例程式\eHR\eHR\bin\Microsoft.ApplicationInsights.xml
+D:\叡揚實習\Course4-1_NET_MVC\範例程式\eHR\eHR\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\叡揚實習\Course4-1_NET_MVC\範例程式\eHR\eHR\bin\System.Web.Razor.xml
+D:\叡揚實習\Course4-1_NET_MVC\範例程式\eHR\eHR\bin\System.Web.Webpages.xml
+D:\叡揚實習\Course4-1_NET_MVC\範例程式\eHR\eHR\bin\System.Web.Webpages.Deployment.xml
+D:\叡揚實習\Course4-1_NET_MVC\範例程式\eHR\eHR\bin\System.Web.Webpages.Razor.xml
+D:\叡揚實習\Course4-1_NET_MVC\範例程式\eHR\eHR\bin\System.Web.Helpers.xml
+D:\叡揚實習\Course4-1_NET_MVC\範例程式\eHR\eHR\bin\System.Web.Mvc.xml
+D:\叡揚實習\Course4-1_NET_MVC\範例程式\eHR\eHR\bin\zh-Hant\System.Web.Razor.resources.dll
+D:\叡揚實習\Course4-1_NET_MVC\範例程式\eHR\eHR\bin\zh-Hant\System.Web.Webpages.resources.dll
+D:\叡揚實習\Course4-1_NET_MVC\範例程式\eHR\eHR\bin\zh-Hant\System.Web.Webpages.Deployment.resources.dll
+D:\叡揚實習\Course4-1_NET_MVC\範例程式\eHR\eHR\bin\zh-Hant\System.Web.Webpages.Razor.resources.dll
+D:\叡揚實習\Course4-1_NET_MVC\範例程式\eHR\eHR\bin\zh-Hant\System.Web.Helpers.resources.dll
+D:\叡揚實習\Course4-1_NET_MVC\範例程式\eHR\eHR\bin\zh-Hant\System.Web.Mvc.resources.dll
+D:\叡揚實習\Course4-1_NET_MVC\範例程式\eHR\eHR\obj\Debug\eHR.csprojResolveAssemblyReference.cache
+D:\叡揚實習\Course4-1_NET_MVC\範例程式\eHR\eHR\obj\Debug\eHR.dll
+D:\叡揚實習\Course4-1_NET_MVC\範例程式\eHR\eHR\obj\Debug\eHR.pdb
+D:\叡揚實習\Course4-1_NET_MVC\範例程式\eHR\eHR\obj\Debug\eHR.csproj.CoreCompileInputs.cache
+D:\Desktop\work7元智\Course3_NET_MVC\Sample\eHR\eHR\bin\ApplicationInsights.config
+D:\Desktop\work7元智\Course3_NET_MVC\Sample\eHR\eHR\bin\roslyn\csc.exe
+D:\Desktop\work7元智\Course3_NET_MVC\Sample\eHR\eHR\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Desktop\work7元智\Course3_NET_MVC\Sample\eHR\eHR\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Desktop\work7元智\Course3_NET_MVC\Sample\eHR\eHR\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Desktop\work7元智\Course3_NET_MVC\Sample\eHR\eHR\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Desktop\work7元智\Course3_NET_MVC\Sample\eHR\eHR\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Desktop\work7元智\Course3_NET_MVC\Sample\eHR\eHR\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Desktop\work7元智\Course3_NET_MVC\Sample\eHR\eHR\bin\roslyn\System.Collections.Immutable.dll
+D:\Desktop\work7元智\Course3_NET_MVC\Sample\eHR\eHR\bin\roslyn\System.Reflection.Metadata.dll
+D:\Desktop\work7元智\Course3_NET_MVC\Sample\eHR\eHR\bin\roslyn\vbc.exe
+D:\Desktop\work7元智\Course3_NET_MVC\Sample\eHR\eHR\bin\roslyn\VBCSCompiler.exe
+D:\Desktop\work7元智\Course3_NET_MVC\Sample\eHR\eHR\bin\roslyn\VBCSCompiler.exe.config
+D:\Desktop\work7元智\Course3_NET_MVC\Sample\eHR\eHR\bin\eHR.dll.config
+D:\Desktop\work7元智\Course3_NET_MVC\Sample\eHR\eHR\bin\eHR.dll
+D:\Desktop\work7元智\Course3_NET_MVC\Sample\eHR\eHR\bin\eHR.pdb
+D:\Desktop\work7元智\Course3_NET_MVC\Sample\eHR\eHR\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Desktop\work7元智\Course3_NET_MVC\Sample\eHR\eHR\bin\Microsoft.AI.DependencyCollector.dll
+D:\Desktop\work7元智\Course3_NET_MVC\Sample\eHR\eHR\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Desktop\work7元智\Course3_NET_MVC\Sample\eHR\eHR\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Desktop\work7元智\Course3_NET_MVC\Sample\eHR\eHR\bin\Microsoft.AI.Web.dll
+D:\Desktop\work7元智\Course3_NET_MVC\Sample\eHR\eHR\bin\Microsoft.AI.WindowsServer.dll
+D:\Desktop\work7元智\Course3_NET_MVC\Sample\eHR\eHR\bin\Microsoft.ApplicationInsights.dll
+D:\Desktop\work7元智\Course3_NET_MVC\Sample\eHR\eHR\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Desktop\work7元智\Course3_NET_MVC\Sample\eHR\eHR\bin\Microsoft.Web.Infrastructure.dll
+D:\Desktop\work7元智\Course3_NET_MVC\Sample\eHR\eHR\bin\System.Web.Helpers.dll
+D:\Desktop\work7元智\Course3_NET_MVC\Sample\eHR\eHR\bin\System.Web.Mvc.dll
+D:\Desktop\work7元智\Course3_NET_MVC\Sample\eHR\eHR\bin\System.Web.Razor.dll
+D:\Desktop\work7元智\Course3_NET_MVC\Sample\eHR\eHR\bin\System.Web.Webpages.Deployment.dll
+D:\Desktop\work7元智\Course3_NET_MVC\Sample\eHR\eHR\bin\System.Web.Webpages.dll
+D:\Desktop\work7元智\Course3_NET_MVC\Sample\eHR\eHR\bin\System.Web.Webpages.Razor.dll
+D:\Desktop\work7元智\Course3_NET_MVC\Sample\eHR\eHR\bin\Microsoft.AI.DependencyCollector.xml
+D:\Desktop\work7元智\Course3_NET_MVC\Sample\eHR\eHR\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Desktop\work7元智\Course3_NET_MVC\Sample\eHR\eHR\bin\Microsoft.AI.Web.xml
+D:\Desktop\work7元智\Course3_NET_MVC\Sample\eHR\eHR\bin\Microsoft.AI.WindowsServer.xml
+D:\Desktop\work7元智\Course3_NET_MVC\Sample\eHR\eHR\bin\Microsoft.ApplicationInsights.xml
+D:\Desktop\work7元智\Course3_NET_MVC\Sample\eHR\eHR\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Desktop\work7元智\Course3_NET_MVC\Sample\eHR\eHR\bin\System.Web.Razor.xml
+D:\Desktop\work7元智\Course3_NET_MVC\Sample\eHR\eHR\bin\System.Web.Webpages.xml
+D:\Desktop\work7元智\Course3_NET_MVC\Sample\eHR\eHR\bin\System.Web.Webpages.Deployment.xml
+D:\Desktop\work7元智\Course3_NET_MVC\Sample\eHR\eHR\bin\System.Web.Webpages.Razor.xml
+D:\Desktop\work7元智\Course3_NET_MVC\Sample\eHR\eHR\bin\System.Web.Helpers.xml
+D:\Desktop\work7元智\Course3_NET_MVC\Sample\eHR\eHR\bin\System.Web.Mvc.xml
+D:\Desktop\work7元智\Course3_NET_MVC\Sample\eHR\eHR\bin\zh-Hant\System.Web.Razor.resources.dll
+D:\Desktop\work7元智\Course3_NET_MVC\Sample\eHR\eHR\bin\zh-Hant\System.Web.Webpages.resources.dll
+D:\Desktop\work7元智\Course3_NET_MVC\Sample\eHR\eHR\bin\zh-Hant\System.Web.Webpages.Deployment.resources.dll
+D:\Desktop\work7元智\Course3_NET_MVC\Sample\eHR\eHR\bin\zh-Hant\System.Web.Webpages.Razor.resources.dll
+D:\Desktop\work7元智\Course3_NET_MVC\Sample\eHR\eHR\bin\zh-Hant\System.Web.Helpers.resources.dll
+D:\Desktop\work7元智\Course3_NET_MVC\Sample\eHR\eHR\bin\zh-Hant\System.Web.Mvc.resources.dll
+D:\Desktop\work7元智\Course3_NET_MVC\Sample\eHR\eHR\obj\Debug\eHR.csprojResolveAssemblyReference.cache
+D:\Desktop\work7元智\Course3_NET_MVC\Sample\eHR\eHR\obj\Debug\eHR.csproj.CoreCompileInputs.cache
+D:\Desktop\work7元智\Course3_NET_MVC\Sample\eHR\eHR\obj\Debug\eHR.dll
+D:\Desktop\work7元智\Course3_NET_MVC\Sample\eHR\eHR\obj\Debug\eHR.pdb
+E:\實習\Course4_NET_MVC\Sample\eHR\eHR\bin\ApplicationInsights.config
+E:\實習\Course4_NET_MVC\Sample\eHR\eHR\bin\roslyn\csc.exe
+E:\實習\Course4_NET_MVC\Sample\eHR\eHR\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\實習\Course4_NET_MVC\Sample\eHR\eHR\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\實習\Course4_NET_MVC\Sample\eHR\eHR\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\實習\Course4_NET_MVC\Sample\eHR\eHR\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\實習\Course4_NET_MVC\Sample\eHR\eHR\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\實習\Course4_NET_MVC\Sample\eHR\eHR\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\實習\Course4_NET_MVC\Sample\eHR\eHR\bin\roslyn\System.Collections.Immutable.dll
+E:\實習\Course4_NET_MVC\Sample\eHR\eHR\bin\roslyn\System.Reflection.Metadata.dll
+E:\實習\Course4_NET_MVC\Sample\eHR\eHR\bin\roslyn\vbc.exe
+E:\實習\Course4_NET_MVC\Sample\eHR\eHR\bin\roslyn\VBCSCompiler.exe
+E:\實習\Course4_NET_MVC\Sample\eHR\eHR\bin\roslyn\VBCSCompiler.exe.config
+E:\實習\Course4_NET_MVC\Sample\eHR\eHR\bin\eHR.dll.config
+E:\實習\Course4_NET_MVC\Sample\eHR\eHR\bin\eHR.dll
+E:\實習\Course4_NET_MVC\Sample\eHR\eHR\bin\eHR.pdb
+E:\實習\Course4_NET_MVC\Sample\eHR\eHR\bin\Microsoft.AI.Agent.Intercept.dll
+E:\實習\Course4_NET_MVC\Sample\eHR\eHR\bin\Microsoft.AI.DependencyCollector.dll
+E:\實習\Course4_NET_MVC\Sample\eHR\eHR\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\實習\Course4_NET_MVC\Sample\eHR\eHR\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\實習\Course4_NET_MVC\Sample\eHR\eHR\bin\Microsoft.AI.Web.dll
+E:\實習\Course4_NET_MVC\Sample\eHR\eHR\bin\Microsoft.AI.WindowsServer.dll
+E:\實習\Course4_NET_MVC\Sample\eHR\eHR\bin\Microsoft.ApplicationInsights.dll
+E:\實習\Course4_NET_MVC\Sample\eHR\eHR\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\實習\Course4_NET_MVC\Sample\eHR\eHR\bin\Microsoft.Web.Infrastructure.dll
+E:\實習\Course4_NET_MVC\Sample\eHR\eHR\bin\System.Web.Helpers.dll
+E:\實習\Course4_NET_MVC\Sample\eHR\eHR\bin\System.Web.Mvc.dll
+E:\實習\Course4_NET_MVC\Sample\eHR\eHR\bin\System.Web.Razor.dll
+E:\實習\Course4_NET_MVC\Sample\eHR\eHR\bin\System.Web.Webpages.Deployment.dll
+E:\實習\Course4_NET_MVC\Sample\eHR\eHR\bin\System.Web.Webpages.dll
+E:\實習\Course4_NET_MVC\Sample\eHR\eHR\bin\System.Web.Webpages.Razor.dll
+E:\實習\Course4_NET_MVC\Sample\eHR\eHR\bin\Microsoft.AI.DependencyCollector.xml
+E:\實習\Course4_NET_MVC\Sample\eHR\eHR\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\實習\Course4_NET_MVC\Sample\eHR\eHR\bin\Microsoft.AI.Web.xml
+E:\實習\Course4_NET_MVC\Sample\eHR\eHR\bin\Microsoft.AI.WindowsServer.xml
+E:\實習\Course4_NET_MVC\Sample\eHR\eHR\bin\Microsoft.ApplicationInsights.xml
+E:\實習\Course4_NET_MVC\Sample\eHR\eHR\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\實習\Course4_NET_MVC\Sample\eHR\eHR\bin\System.Web.Razor.xml
+E:\實習\Course4_NET_MVC\Sample\eHR\eHR\bin\System.Web.Webpages.xml
+E:\實習\Course4_NET_MVC\Sample\eHR\eHR\bin\System.Web.Webpages.Deployment.xml
+E:\實習\Course4_NET_MVC\Sample\eHR\eHR\bin\System.Web.Webpages.Razor.xml
+E:\實習\Course4_NET_MVC\Sample\eHR\eHR\bin\System.Web.Helpers.xml
+E:\實習\Course4_NET_MVC\Sample\eHR\eHR\bin\System.Web.Mvc.xml
+E:\實習\Course4_NET_MVC\Sample\eHR\eHR\bin\zh-Hant\System.Web.Razor.resources.dll
+E:\實習\Course4_NET_MVC\Sample\eHR\eHR\bin\zh-Hant\System.Web.Webpages.resources.dll
+E:\實習\Course4_NET_MVC\Sample\eHR\eHR\bin\zh-Hant\System.Web.Webpages.Deployment.resources.dll
+E:\實習\Course4_NET_MVC\Sample\eHR\eHR\bin\zh-Hant\System.Web.Webpages.Razor.resources.dll
+E:\實習\Course4_NET_MVC\Sample\eHR\eHR\bin\zh-Hant\System.Web.Helpers.resources.dll
+E:\實習\Course4_NET_MVC\Sample\eHR\eHR\bin\zh-Hant\System.Web.Mvc.resources.dll
+E:\實習\Course4_NET_MVC\Sample\eHR\eHR\obj\Debug\eHR.csprojAssemblyReference.cache
+E:\實習\Course4_NET_MVC\Sample\eHR\eHR\obj\Debug\eHR.csproj.CoreCompileInputs.cache
+E:\實習\Course4_NET_MVC\Sample\eHR\eHR\obj\Debug\eHR.csproj.CopyComplete
+E:\實習\Course4_NET_MVC\Sample\eHR\eHR\obj\Debug\eHR.dll
+E:\實習\Course4_NET_MVC\Sample\eHR\eHR\obj\Debug\eHR.pdb
+D:\叡揚\Course4_NET_MVC\text\text\eHR\eHR\bin\ApplicationInsights.config
+D:\叡揚\Course4_NET_MVC\text\text\eHR\eHR\bin\roslyn\csc.exe
+D:\叡揚\Course4_NET_MVC\text\text\eHR\eHR\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\叡揚\Course4_NET_MVC\text\text\eHR\eHR\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\叡揚\Course4_NET_MVC\text\text\eHR\eHR\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\叡揚\Course4_NET_MVC\text\text\eHR\eHR\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\叡揚\Course4_NET_MVC\text\text\eHR\eHR\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\叡揚\Course4_NET_MVC\text\text\eHR\eHR\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\叡揚\Course4_NET_MVC\text\text\eHR\eHR\bin\roslyn\System.Collections.Immutable.dll
+D:\叡揚\Course4_NET_MVC\text\text\eHR\eHR\bin\roslyn\System.Reflection.Metadata.dll
+D:\叡揚\Course4_NET_MVC\text\text\eHR\eHR\bin\roslyn\vbc.exe
+D:\叡揚\Course4_NET_MVC\text\text\eHR\eHR\bin\roslyn\VBCSCompiler.exe
+D:\叡揚\Course4_NET_MVC\text\text\eHR\eHR\bin\roslyn\VBCSCompiler.exe.config
+D:\叡揚\Course4_NET_MVC\text\text\eHR\eHR\bin\eHR.dll.config
+D:\叡揚\Course4_NET_MVC\text\text\eHR\eHR\bin\eHR.dll
+D:\叡揚\Course4_NET_MVC\text\text\eHR\eHR\bin\eHR.pdb
+D:\叡揚\Course4_NET_MVC\text\text\eHR\eHR\bin\Microsoft.AI.Agent.Intercept.dll
+D:\叡揚\Course4_NET_MVC\text\text\eHR\eHR\bin\Microsoft.AI.DependencyCollector.dll
+D:\叡揚\Course4_NET_MVC\text\text\eHR\eHR\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\叡揚\Course4_NET_MVC\text\text\eHR\eHR\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\叡揚\Course4_NET_MVC\text\text\eHR\eHR\bin\Microsoft.AI.Web.dll
+D:\叡揚\Course4_NET_MVC\text\text\eHR\eHR\bin\Microsoft.AI.WindowsServer.dll
+D:\叡揚\Course4_NET_MVC\text\text\eHR\eHR\bin\Microsoft.ApplicationInsights.dll
+D:\叡揚\Course4_NET_MVC\text\text\eHR\eHR\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\叡揚\Course4_NET_MVC\text\text\eHR\eHR\bin\Microsoft.Web.Infrastructure.dll
+D:\叡揚\Course4_NET_MVC\text\text\eHR\eHR\bin\System.Web.Helpers.dll
+D:\叡揚\Course4_NET_MVC\text\text\eHR\eHR\bin\System.Web.Mvc.dll
+D:\叡揚\Course4_NET_MVC\text\text\eHR\eHR\bin\System.Web.Razor.dll
+D:\叡揚\Course4_NET_MVC\text\text\eHR\eHR\bin\System.Web.Webpages.Deployment.dll
+D:\叡揚\Course4_NET_MVC\text\text\eHR\eHR\bin\System.Web.Webpages.dll
+D:\叡揚\Course4_NET_MVC\text\text\eHR\eHR\bin\System.Web.Webpages.Razor.dll
+D:\叡揚\Course4_NET_MVC\text\text\eHR\eHR\bin\Microsoft.AI.DependencyCollector.xml
+D:\叡揚\Course4_NET_MVC\text\text\eHR\eHR\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\叡揚\Course4_NET_MVC\text\text\eHR\eHR\bin\Microsoft.AI.Web.xml
+D:\叡揚\Course4_NET_MVC\text\text\eHR\eHR\bin\Microsoft.AI.WindowsServer.xml
+D:\叡揚\Course4_NET_MVC\text\text\eHR\eHR\bin\Microsoft.ApplicationInsights.xml
+D:\叡揚\Course4_NET_MVC\text\text\eHR\eHR\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\叡揚\Course4_NET_MVC\text\text\eHR\eHR\bin\System.Web.Razor.xml
+D:\叡揚\Course4_NET_MVC\text\text\eHR\eHR\bin\System.Web.Webpages.xml
+D:\叡揚\Course4_NET_MVC\text\text\eHR\eHR\bin\System.Web.Webpages.Deployment.xml
+D:\叡揚\Course4_NET_MVC\text\text\eHR\eHR\bin\System.Web.Webpages.Razor.xml
+D:\叡揚\Course4_NET_MVC\text\text\eHR\eHR\bin\System.Web.Helpers.xml
+D:\叡揚\Course4_NET_MVC\text\text\eHR\eHR\bin\System.Web.Mvc.xml
+D:\叡揚\Course4_NET_MVC\text\text\eHR\eHR\bin\zh-Hant\System.Web.Razor.resources.dll
+D:\叡揚\Course4_NET_MVC\text\text\eHR\eHR\bin\zh-Hant\System.Web.Webpages.resources.dll
+D:\叡揚\Course4_NET_MVC\text\text\eHR\eHR\bin\zh-Hant\System.Web.Webpages.Deployment.resources.dll
+D:\叡揚\Course4_NET_MVC\text\text\eHR\eHR\bin\zh-Hant\System.Web.Webpages.Razor.resources.dll
+D:\叡揚\Course4_NET_MVC\text\text\eHR\eHR\bin\zh-Hant\System.Web.Helpers.resources.dll
+D:\叡揚\Course4_NET_MVC\text\text\eHR\eHR\bin\zh-Hant\System.Web.Mvc.resources.dll
+D:\叡揚\Course4_NET_MVC\text\text\eHR\eHR\obj\Debug\eHR.csprojAssemblyReference.cache
+D:\叡揚\Course4_NET_MVC\text\text\eHR\eHR\obj\Debug\eHR.csproj.CoreCompileInputs.cache
+D:\叡揚\Course4_NET_MVC\text\text\eHR\eHR\obj\Debug\eHR.csproj.CopyComplete
+D:\叡揚\Course4_NET_MVC\text\text\eHR\eHR\obj\Debug\eHR.dll
+D:\叡揚\Course4_NET_MVC\text\text\eHR\eHR\obj\Debug\eHR.pdb
