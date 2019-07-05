@@ -16,7 +16,6 @@ namespace eHR.Controllers
         /// <returns></returns>
         public ActionResult Index()
         {
-            ViewBag.JobTitleCodeData = this.codeService.GetCodeTable("TITLE");
             return View();
         }
 

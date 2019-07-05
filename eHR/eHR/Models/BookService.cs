@@ -64,11 +64,18 @@ namespace eHR.Models
         {
 
             DataTable dt = new DataTable();
-            string sql = @"SELECT  BOOK_ID, BOOK_NAME, BOOK_CLASS_ID, 
-                                  BOOK_AUTHOR, BOOK_BOUGHT_DATE, BOOK_AUTHOR, BOOK_PUBLISHER
-                           FROM dbo.BOOK_DATA
-                           Where 
-                                 (BOOK_ID = @BookId or @BookId='') AND
+            string sql = @"SELECT BOOK_CLASS_NAME, BOOK_NAME, BOOK_BOUGHT_DATE, CODE_NAME, USER_ENAME
+                           FROM BOOK_DATA
+                           LEFT JOIN BOOK_LEND_RECORD
+	                           ON BOOK_DATA.BOOK_ID = BOOK_LEND_RECORD.BOOK_ID
+                           LEFT JOIN BOOK_CLASS
+	                           ON BOOK_DATA.BOOK_CLASS_ID = BOOK_CLASS.BOOK_CLASS_ID
+                           LEFT JOIN MEMBER_M
+	                           ON KEEPER_ID = USER_ID
+                           LEFT JOIN BOOK_CODE
+	                           ON BOOK_STATUS = CODE_ID
+                           WHERE CODE_TYPE = 'BOOK_STATUS' AND
+                                 (BOOK_DATA.BOOK_ID = @BookId or @BookId='') AND
                                  (UPPER(BOOK_NAME) LIKE UPPER('%' + @BookName + '%')or @BookName='') AND
                                  ((BOOK_BOUGHT_DATE BETWEEN @DateStart AND @DateEnd))";
 
@@ -124,12 +131,11 @@ namespace eHR.Models
             {
                 result.Add(new Books()
                 {
-                    BookID = (int)row["BOOK_ID"],
+                    BookClassID = row["BOOK_CLASS_NAME"].ToString(),
                     BookName = row["BOOK_NAME"].ToString(),
-                    BookClassID = row["BOOK_CLASS_ID"].ToString(),
                     BookBoughtDate = row["BOOK_BOUGHT_DATE"].ToString(),
-                    Author = row["BOOK_AUTHOR"].ToString(),
-                    Publisher = row["BOOK_PUBLISHER"].ToString()
+                    Author = row["CODE_NAME"].ToString(),
+                    Publisher = row["USER_ENAME"].ToString()
                 });
             }
             return result;
