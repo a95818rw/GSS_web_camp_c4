@@ -44,6 +44,46 @@ namespace eHR.Models
         }
 
         /// <summary>
+        /// 取得BookClassName資料
+        /// </summary>
+        /// <returns></returns>
+        public List<SelectListItem> GetBookClassNameTable()
+        {
+            DataTable dt = new DataTable();
+            string sql = @"Select BOOK_CLASS_NAME
+                           From dbo.BOOK_CLASS ";
+            using (SqlConnection conn = new SqlConnection(this.GetDBConnectionString()))
+            {
+                conn.Open();
+                SqlCommand cmd = new SqlCommand(sql, conn);
+                //cmd.Parameters.Add(new SqlParameter("@Type", type));
+                SqlDataAdapter sqlAdapter = new SqlDataAdapter(cmd);
+                sqlAdapter.Fill(dt);
+                conn.Close();
+            }
+            return this.MapBookClassNameData(dt);
+        }
+
+        /// <summary>
+        /// Maping 代碼資料
+        /// </summary>
+        /// <param name="dt"></param>
+        /// <returns></returns>
+        private List<SelectListItem> MapBookClassNameData(DataTable dt)
+        {
+            List<SelectListItem> result = new List<SelectListItem>();
+            foreach (DataRow row in dt.Rows)
+            {
+                result.Add(new SelectListItem()
+                {
+                    Text = row["BOOK_CLASS_NAME"].ToString(),
+                    Value = row["BOOK_CLASS_NAME"].ToString()
+                });
+            }
+            return result;
+        }
+
+        /// <summary>
         /// 取得codeTable的部分資料
         /// </summary>
         /// <returns></returns>

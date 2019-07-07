@@ -8,79 +8,88 @@
 
 @using (Html.BeginForm("Index", "Employee", FormMethod.Post, new { id = "Form1" }))
 {
-    <div class="form-horizontal">
+<div class="form-horizontal">
 
-        <div class="form-group">
-            @Html.LabelFor(model => model.BookId, htmlAttributes: new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
-                @Html.TextBoxFor(model => model.BookId, new { @class = "form-control" })
-            </div>
+    <div class="form-group">
+        @Html.LabelFor(model => model.BookName, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.TextBoxFor(model => model.BookName, new { @class = "form-control" })
         </div>
+    </div>
 
-        <div class="form-group">
-            @Html.LabelFor(model => model.BookName, htmlAttributes: new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
-                @Html.TextBoxFor(model => model.BookName, new { @class = "form-control" })
-            </div>
+    <div class="form-group">
+        @Html.LabelFor(model => model.BookClassName, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.DropDownListFor(model => model.BookClassName, (List<SelectListItem>)ViewBag.BookClassNameData, "請選擇", new { @class = "form-control" })
         </div>
+    </div>
 
-
-
-        <div class="form-group">
-            <label class="control-label col-md-2">購書日期</label>
-            <div class="col-md-10">
-                @Html.TextBoxFor(model => model.BoughtDateStart, new { @type = "Date", @style = "text-align:left" }) ~
-                @Html.TextBoxFor(model => model.BoughtDateEnd, new { @type = "Date", @style = "text-align:left" })
-            </div>
+    <div class="form-group">
+        @Html.LabelFor(model => model.BookClassName, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.TextBoxFor(model => model.BookClassName, new { @class = "form-control" })
         </div>
+    </div>
 
-        <div class="form-group">
-            <div class="col-md-2">
-            </div>
-            <div class="col-md-10">
-                <input type="submit" value="查詢" />
-                @Html.ActionLink("add","InsertEmployee")
-                @Html.ActionLink("清除", "Index")
-            </div>
+    <div class="form-group">
+        @Html.LabelFor(model => model.UserName, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.TextBoxFor(model => model.UserName, new { @class = "form-control" })
         </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Status, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.TextBoxFor(model => model.Status, new { @class = "form-control" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="col-md-2">
+        </div>
+        <div class="col-md-10">
+            <input type="submit" value="查詢" />
+            @Html.ActionLink("add", "InsertEmployee")
+            @Html.ActionLink("清除", "Index")
+        </div>
+    </div>
 
 
-        @if (ViewBag.SearchResult != null)
-        {
-            <table class="table table-bordered table-striped">
-                <thead>
-                    <tr id>
-                        <th>書本ID</th>
-                        <th>書名</th>
-                        <th>圖書類別</th>
-                        <th>購書日期</th>
-                        <th>作者</th>
-                        <th>出版商</th>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                </thead>
-                <tbody>
-                    @foreach (var item in (List<eHR.Models.Books>)ViewBag.SearchResult)
-                    {
+    @if (ViewBag.SearchResult != null)
+    {
+        <table class="table table-bordered table-striped">
+            <thead>
+                <tr>
+                    <th>圖書類別</th>
+                    <th>書名</th>
+                    <th>購書日期</th>
+                    <th>借閱狀態</th>
+                    <th>借閱人</th>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in (List<eHR.Models.Books>)ViewBag.SearchResult)
+                {
                     <tr id='@item.BookID'>
-                        <td>@item.BookID</td>
+                        <td>@item.BookClassName</td>
                         <td>@item.BookName</td>
-                        <td>@item.BookClassID</td>
                         <td>@item.BookBoughtDate.Replace('-', '/')</td>
-                        <td>@item.Author</td>
-                        <td>@item.Publisher</td>
+                        <td>@item.Status</td>
+                        <td>@item.UserName</td>
                         <td>@Html.ActionLink("修改", "UpdateBook", new { id = item.BookID, @value = @item.BookID })</td>
                         <td>
                             <a class="btnDelete" href="#" onclick="test(this,'@item.BookID');">刪除</a>
                             <input class="hidEmployeeId" type="hidden" value='@item.BookID' />
                         </td>
                     </tr>
-                    }
-                </tbody>
-            </table>
-        }
-    </div>
+                }
+            </tbody>
+        </table>
+    }
+</div>
 
 }
 <script type="text/javascript">

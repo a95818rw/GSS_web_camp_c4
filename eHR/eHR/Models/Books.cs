@@ -11,13 +11,6 @@ namespace eHR.Models
     public class Books
     {
         /// <summary>
-        /// 書本ID
-        /// </summary>
-        ///[MaxLength(5)]
-        [DisplayName("書本ID")]
-        public int BookID { get; set; }
-
-        /// <summary>
         /// 書名
         /// </summary>
         [DisplayName("書名")]
@@ -25,11 +18,18 @@ namespace eHR.Models
         public string BookName { get; set; }
 
         /// <summary>
+        /// 圖書類別ID
+        /// </summary>
+        [DisplayName("圖書類別ID")]
+        [Required(ErrorMessage = "此欄位必填")]
+        public string BookClassID { get; set; }
+
+        /// <summary>
         /// 圖書類別
         /// </summary>
         [DisplayName("圖書類別")]
         [Required(ErrorMessage = "此欄位必填")]
-        public string BookClassID { get; set; }
+        public string BookClassName{ get; set; }
 
         /// <summary>
         /// 購書日期
@@ -53,11 +53,33 @@ namespace eHR.Models
         public string Publisher { get; set; }
 
         /// <summary>
+        /// 借閱狀態
+        /// </summary>
+        [DisplayName("借閱狀態")]
+        [Required(ErrorMessage = "此欄位必填")]
+        public string Status { get; set; }
+
+
+        /// <summary>
+        /// 借閱人
+        /// </summary>
+        [DisplayName("借閱人")]
+        [Required(ErrorMessage = "此欄位必填")]
+        public string UserName { get; set; }
+
+        /// <summary>
+        /// 書本ID
+        /// </summary>
+        ///[MaxLength(5)]
+        [DisplayName("書本ID")]
+        public int BookID { get; set; }
+
+        /// <summary>
         /// 內容簡介
         /// </summary>
-        //[DisplayName("內容簡介")]
-        //[Required(ErrorMessage = "此欄位必填")]
-        //public string Introduction { get; set; }
+        [DisplayName("內容簡介")]
+        [Required(ErrorMessage = "此欄位必填")]
+        public string Introduction { get; set; }
 
         /// <summary>
         /// 借閱狀態

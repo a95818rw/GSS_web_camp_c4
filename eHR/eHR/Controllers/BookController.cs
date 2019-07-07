@@ -16,6 +16,8 @@ namespace eHR.Controllers
         /// <returns></returns>
         public ActionResult Index()
         {
+            ViewBag.JobTitleCodeData = this.codeService.GetCodeTable("TITLE");
+            ViewBag.BookClassNameData = this.codeService.GetBookClassNameTable();
             return View();
         }
 
@@ -27,8 +29,6 @@ namespace eHR.Controllers
         public ActionResult Index(Models.BookSearchArg arg)
         {
             Models.BookService bookService = new Models.BookService();
-            if (arg.BoughtDateEnd == null)
-                arg.BoughtDateEnd = DateTime.Now.ToShortDateString();
             ViewBag.SearchResult = bookService.GetBookByCondition(arg);
             ViewBag.JobTitleCodeData = this.codeService.GetCodeTable("TITLE");
             return View("Index");
@@ -39,7 +39,7 @@ namespace eHR.Controllers
         /// </summary>
         /// <returns></returns>
         [HttpGet()]
-        public ActionResult InsertBook()
+        public ActionResult InsertEmployee()
         {
             ViewBag.JobTitleCodeData = this.codeService.GetCodeTable("TITLE");
             ViewBag.CountryCodeData = this.codeService.GetCodeTable("COUNTRY");
@@ -72,7 +72,7 @@ namespace eHR.Controllers
         }
 
         /// <summary>
-        /// 刪除員工
+        /// 刪除書籍
         /// </summary>
         /// <param name="bookId"></param>
         /// <returns></returns>

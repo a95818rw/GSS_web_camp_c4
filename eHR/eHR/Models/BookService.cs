@@ -44,7 +44,7 @@ namespace eHR.Models
                 conn.Open();
                 SqlCommand cmd = new SqlCommand(sql, conn);
                 cmd.Parameters.Add(new SqlParameter("@BOOK_NAME", Book.BookName));
-                cmd.Parameters.Add(new SqlParameter("@BOOK_ID", Book.BookClassID));
+                cmd.Parameters.Add(new SqlParameter("@BOOK_ID", Book.BookID));
                 cmd.Parameters.Add(new SqlParameter("@BOOK_AUTHOR", Book.Author));
                 cmd.Parameters.Add(new SqlParameter("@BOOK_PUBLISHER", Book.Publisher));
                 cmd.Parameters.Add(new SqlParameter("@BOOK_BOUGHT_DATE", Book.BookBoughtDate));
@@ -74,19 +74,20 @@ namespace eHR.Models
 	                           ON KEEPER_ID = USER_ID
                            LEFT JOIN BOOK_CODE
 	                           ON BOOK_STATUS = CODE_ID
-                           WHERE CODE_TYPE = 'BOOK_STATUS' AND
-                                 (BOOK_DATA.BOOK_ID = @BookId or @BookId='') AND
+                           WHERE CODE_TYPE = 'BOOK_STATUS' AND BOOK_NAME != '' AND
+                                 (BOOK_CLASS_NAME = @BookClassName or @BookClassName='') AND
                                  (UPPER(BOOK_NAME) LIKE UPPER('%' + @BookName + '%')or @BookName='') AND
-                                 ((BOOK_BOUGHT_DATE BETWEEN @DateStart AND @DateEnd))";
+                                 (CODE_NAME = @Status or @Status='') AND
+                                 (USER_ENAME = @UserName or @UserName='')";
 
             using (SqlConnection conn = new SqlConnection(this.GetDBConnectionString()))
             {
                 conn.Open();
                 SqlCommand cmd = new SqlCommand(sql, conn);
-                cmd.Parameters.Add(new SqlParameter("@BookId", arg.BookId == null ? string.Empty : arg.BookId));
+                cmd.Parameters.Add(new SqlParameter("@BookClassName", arg.BookClassName == null ? string.Empty : arg.BookClassName));
                 cmd.Parameters.Add(new SqlParameter("@BookName", arg.BookName == null ? string.Empty : arg.BookName));
-                cmd.Parameters.Add(new SqlParameter("@DateStart", arg.BoughtDateStart == null ? "1900/01/01" : arg.BoughtDateStart));
-                cmd.Parameters.Add(new SqlParameter("@DateEnd", arg.BoughtDateEnd == null ? "2500/12/31" : arg.BoughtDateEnd));
+                cmd.Parameters.Add(new SqlParameter("@Status", arg.Status == null ? string.Empty : arg.Status));
+                cmd.Parameters.Add(new SqlParameter("@UserName", arg.UserName == null ? string.Empty : arg.UserName));
                 SqlDataAdapter sqlAdapter = new SqlDataAdapter(cmd);
                 sqlAdapter.Fill(dt);
                 conn.Close();
@@ -131,11 +132,11 @@ namespace eHR.Models
             {
                 result.Add(new Books()
                 {
-                    BookClassID = row["BOOK_CLASS_NAME"].ToString(),
+                    BookClassName = row["BOOK_CLASS_NAME"].ToString(),
                     BookName = row["BOOK_NAME"].ToString(),
                     BookBoughtDate = row["BOOK_BOUGHT_DATE"].ToString(),
-                    Author = row["CODE_NAME"].ToString(),
-                    Publisher = row["USER_ENAME"].ToString()
+                    Status = row["CODE_NAME"].ToString(),
+                    UserName = row["USER_ENAME"].ToString()
                 });
             }
             return result;
